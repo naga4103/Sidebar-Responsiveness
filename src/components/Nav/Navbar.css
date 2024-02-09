@@ -1,0 +1,70 @@
+.main-container-col {
+    display: flex;
+    flex-direction: column;
+}
+
+.header-container {
+    background-color: blueviolet;
+    color: white;
+    height: 60px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+.sidebar-main-container {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+}
+
+.side-menu {
+    width: 300px;
+    background-color: aquamarine;
+    height: 80vh;
+    overflow-y: scroll;
+
+}
+
+.side-body {
+    background-color: bisque;
+    width: 100vw;
+
+
+
+}
+
+.footer {
+    background-color: brown;
+    height: 50px;
+}
+
+.ham {
+
+    font-size: 30px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: gray;
+    padding: 1px;
+    border-radius: 5px;
+}
+
+@media screen and (max-width:768px) {
+
+    .sidebar {
+
+        display: none;
+
+    }
+
+
+}
+
+@media screen and (min-width:769px) {
+
+
+    .nav-canvas {
+        display: none;
+    }
+
+
+}
